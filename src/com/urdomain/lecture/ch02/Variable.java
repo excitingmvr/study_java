@@ -40,9 +40,9 @@ public class Variable {
 		
 //		정수형은 0
 //		실수형은 0.0
-//		문자형은 '' 또는 ""
+//		문자형은 ' ' 또는 ""
 		
-		boolean defaultNy = false;
+		boolean defaultNy = false;	//true
 		
 		byte aa = 0;
 		short bb = 0;
@@ -84,11 +84,19 @@ public class Variable {
 		System.out.println("쏘크라테스가 말했다 \"나는 존재한다.\"");
 		System.out.println("\\");
 		
+//		변수의 범위
+//		변수는 선언된 블럭 내에서만 사용 가능하다.
 		
-//		boolean defaultNy = 1;
-		
+		if(a == 1) {
+			int aaa = 10;
+			int bbb = aaa + a;
+			System.out.println("bbb: " + bbb);
+		} else {
+			
+		}
 
-		
+//		System.out.println("bbb: " + bbb);	// error
+				
 	}
 
 }
