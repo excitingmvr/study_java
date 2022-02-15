@@ -29,8 +29,22 @@ public class Reference {
 		}
 		str1.equals(str2);	// 문자열
 		
-//		배열
+//		배열 : 동일 데이터들의 집합
+//			예) 1학년 2반 학생들이 수학 성적 (15명)
+//			78,44,90,97,100,.. 88 (15개)
+//			int mathScore010201 = 78;
+//			int mathScore010202 = 44;
+//			int mathScore010203 = 90;
+//			int mathScore010204 = 97;
+//			int mathScore010205 = 100;
+//			.....
+//			int mathScore010215 = 88;
+//			
+//			int mathScore0102 = {78,44,90,97,...,100};
+//			int mathScore0102 = {{78,78},{44,97},{90,70}...{100,100}}; n * n
+			
 //			선언
+		
 				
 				
 		
