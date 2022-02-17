@@ -4,6 +4,7 @@ import java.util.Calendar;
 
 public class EnumWeekExample {
 
+//	함수. function
 	public static void main(String[] args) {
 
 //		Week abc = Week.MONDAY;
@@ -41,6 +42,16 @@ public class EnumWeekExample {
 		} else {
 			System.out.println("오늘은 열심히 자바 공부합니다.");
 		}
+		
+		
+	}
+	
+	public void abc () {
+		
+		
+	}
+	
+	public void def () {
 		
 		
 	}
