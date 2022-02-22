@@ -7,6 +7,6 @@ public class Car {
 	String color = "화이트";
 	int maxSpeed = 300;
 	int speed = 0;
-
+  
 
 }
