@@ -1,6 +1,6 @@
 package com.urdomain.lecture.ch06;
 
-public class FifthCar {
+class FifthCar {
 	
 	//필드
 	int speed;	// 50

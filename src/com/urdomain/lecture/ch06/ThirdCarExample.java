@@ -24,6 +24,15 @@ public class ThirdCarExample {
 		System.out.println("ThirdCar4.model : " + ThirdCar4.model);
 		System.out.println("ThirdCar4.color : " + ThirdCar4.color);
 		System.out.println("ThirdCar4.maxSpeed : " + ThirdCar4.maxSpeed);
+		
+		double result1 = 10 * 10 * ForthCalculator.pi;
+		int result2 = ForthCalculator.plus(10, 5);
+		int result3 = ForthCalculator.minus(10, 5);
+		
+		System.out.println("result1 : " + result1);
+		System.out.println("result2 : " + result2);
+		System.out.println("result3 : " + result3);
+		
 	}
 
 }
