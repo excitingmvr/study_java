@@ -24,5 +24,6 @@ hs_err_pid*
 
 # custom
 .settings/
+*.prefs
 .classpath
 .project
